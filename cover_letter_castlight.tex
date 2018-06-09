@@ -1,0 +1,136 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Awesome Cover Letter
+% XeLaTeX Template
+% Version 1.1 (9/1/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original authors:
+% Claud D. Park (posquit0.bj@gmail.com)
+% Lars Richter (mail@ayeks.de)
+% With modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template must be compiled with XeLaTeX, the below lines will ensure this
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt, a4paper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
+
+\geometry{left=2cm, top=1.5cm, right=2cm, bottom=2cm, footskip=.5cm} % Configure page margins with geometry
+ 
+\fontdir[fonts/] % Specify the location of the included fonts
+
+% Color for highlights
+\colorlet{awesome}{awesome-red} % Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
+%\definecolor{awesome}{HTML}{CA63A8} % Uncomment if you would like to specify your own color
+
+% Colors for text - uncomment and modify
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad} % If you would like to change the social information separator from a pipe (|) to something else
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%----------------------------------------------------------------------------------------
+
+\name{Miles A.}{Turpin}
+\address{Duke University, Campus Box 99798, Durham, NC 27708}
+\mobile{(203)-505-5523}
+
+\email{milesaturpin@gmail.com}
+\github{milesaturpin}
+\linkedin{milesaturpin}
+%\skype{skypeid}
+%\stackoverflow{SOid}{SOname}
+%\twitter{@twit}
+%\linkedin{linkedin name}
+%\reddit{reddit account}
+%\xing{xing name}
+%\extrainfo{test} % Other text you want to include on this line
+
+%\position{Data Scientist{\enskip\cdotp\enskip}Philosopher} % Your expertise/fields
+
+%----------------------------------------------------------------------------------------
+%	RECIPIENT/POSITION/LETTER INFORMATION
+%	All of the below lines must be filled out
+%----------------------------------------------------------------------------------------
+
+\recipient{}{} % The company being applied to
+
+\letterdate{\today} % The date on the letter, default is the date of compilation
+
+\lettertitle{Job Application for Data Engineer} % The title of the letter
+
+\letteropening{Dear Castlight Health Recruitment,} % How the letter is opened
+
+\letterclosing{With thanks,} % How the letter is closed
+
+%\letterenclosure[Attached]{Curriculum Vitae} % Any enclosures with the letter
+
+\makecvfooter{\today}{Miles A. Turpin~~~·~~~Résumé}{} % Specify the letter footer with 3 arguments: (<left>, <center>, <right>), leave any of these blank if they are not needed
+  
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvheader % Print the header
+
+%%% CHECK THIS
+\makelettertitle % Print the title
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\begin{cvletter}
+
+%------------------------------------------------
+
+\lettersection{About Me}
+
+I’m very interested in joining Castlight Health for the summer as a Data Engineer intern. My mathematics background includes courses in linear algebra, probability, multivariable calculus. I am currently enrolled in a rigorous algorithm design and analysis class, where we have learned algorithms related to graph theory, network flows, Monte Carlo simulations, and linear programming. The data science course I am taking this semester (taught in R) is an interactive course that has provided me experience with data wrangling, visualization, and modeling, as well as team-based skills like project management and version control on GitHub. From my databases course last semester, I learned SQL, XML/XQuery, how to work with relational and NoSQL databases, indexing, and query optimization. The courses I have taken thus far are not the normal CS track — I’ve sought these out to get the skills necessary to do the exact work that this internship requires. I’ve created my own major at Duke, a combination of Computer Science and Statistics courses, to fulfill these ends. I have also taken Andrew Ng’s Coursera course on machine learning which covers neural networks, SVMs, techniques for applying machine learning to large datasets and more. 
+
+This April 2018, I won the American Statistical Association DataFest at Duke, out of over 400 people, over half of which were masters students. The competition involves working through a massive, noisy dataset from an industry partner to create actionable insights. You can read more about my project and results on my GitHub profile, which I have linked on my resume. This kind of experience is perfect for this role.
+
+Beyond technical skills, I enjoy working with teams of people. At Duke, I help run the Philosophy Society as well as Effective Altruism: Duke. Effective Altruism is a social movement that aims to figure out how to maximize social good with limited resources and money. The purpose of our local chapter is to find students of all disciplines who are not only driven by excellence, but have a strong desire to help as many people as possible. We bring these people together to discuss the hard questions of how to do the most good, and how to plan careers accordingly (I am currently on the data science track as a result of evaluating the impact opportunities offered by various career paths). Please see my CV for my involvement in Effective Altruism, as I believe my involvement in this group speaks to my ambition and leadership.
+	
+
+%------------------------------------------------
+
+\lettersection{Why Castlight Health?}
+
+Healthcare currently makes up around a sixth of the GDP of the US — something is very wrong here. Now that we have our iPhones and social media, it’s about time that the tech sector focused its efforts on improving the lives of people. Healthcare is ripe for disruption, leaving opportunities to gain for entrepreneurs and consumers alike. Castlight Health is working in one of the most exciting industries right now, right at the intersection of data and healthcare.
+
+At this point in my career I’m trying to gain experience, meet mentors, and learn from other people; Castlight Health would be an incredible opportunity in that regard. I’m eager to learn about data engineering and take a proactive role to help Castlight Health to develop products that will radically change how people receive care. 
+
+%------------------------------------------------
+
+% \lettersection{Why Me?}
+
+% Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
+
+% %------------------------------------------------
+
+\end{cvletter}
+
+%----------------------------------------------------------------------------------------
+
+\makeletterclosing % Print the signature and enclosures
+
+\end{document}
